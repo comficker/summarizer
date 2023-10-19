@@ -22,6 +22,8 @@ const recents = ref([{
 }, {
   id: "1YqGoAAQVRQxv"
 }])
+
+
 const results = ref<{ s: number, r: string }[]>([])
 console.log(config.public.socket);
 onMounted(() => {
